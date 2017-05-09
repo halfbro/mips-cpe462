@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mips_cpe-462", "mips_cpe-462\mips_cpe-462.vcxproj", "{6D17B352-4F59-4988-A51F-88CC73FF7003}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D17B352-4F59-4988-A51F-88CC73FF7003}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D17B352-4F59-4988-A51F-88CC73FF7003}.Debug|Win32.Build.0 = Debug|Win32
+		{6D17B352-4F59-4988-A51F-88CC73FF7003}.Release|Win32.ActiveCfg = Release|Win32
+		{6D17B352-4F59-4988-A51F-88CC73FF7003}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
