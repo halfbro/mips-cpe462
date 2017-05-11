@@ -1,10 +1,16 @@
-﻿Build started 5/9/2017 8:31:37 PM.
+﻿Build started 5/10/2017 11:46:47 PM.
      1>Project "C:\Users\Class2017\Documents\2017_Spring_School_Stuff\mips-cpe462\mips_cpe-462\mips_cpe-462\mips_cpe-462.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\mips_cpe-462.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
+     1>c:\users\class2017\documents\2017_spring_school_stuff\mips-cpe462\mips_cpe-462\mips_cpe-462\main.cpp(46): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\class2017\documents\2017_spring_school_stuff\mips-cpe462\mips_cpe-462\mips_cpe-462\main.cpp(65): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\class2017\documents\2017_spring_school_stuff\mips-cpe462\mips_cpe-462\mips_cpe-462\main.cpp(74): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Class2017\Documents\2017_Spring_School_Stuff\mips-cpe462\mips_cpe-462\Debug\mips_cpe-462.exe" /NOLOGO SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\mips_cpe-462.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Class2017\Documents\2017_Spring_School_Stuff\mips-cpe462\mips_cpe-462\Debug\mips_cpe-462.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Class2017\Documents\2017_Spring_School_Stuff\mips-cpe462\mips_cpe-462\Debug\mips_cpe-462.lib" /MACHINE:X86 Debug\main.obj
          LINK : C:\Users\Class2017\Documents\2017_Spring_School_Stuff\mips-cpe462\mips_cpe-462\Debug\mips_cpe-462.exe not found or not built by the last incremental link; performing full link
@@ -18,4 +24,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.60
+Time Elapsed 00:00:00.58
